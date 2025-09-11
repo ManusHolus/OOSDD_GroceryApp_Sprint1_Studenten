@@ -9,6 +9,7 @@
         {
             GroceryListId = groceryListId;//To do:assign values to the properties
             ProductId = productId;
+            Amount = amount;
         }
 
         public Product Product { get; set; } = new(0, "None", 0);
